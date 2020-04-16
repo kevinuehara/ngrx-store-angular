@@ -6,14 +6,6 @@ NGRX: Store + Effects app
 
 ---
 
-<a href="https://ultimatecourses.com" target="_blank"><img src="https://ultimatecourses.com/static/banners/ultimate-ngrx-leader.svg"></a>
-
----
-
-> This repo serves as the seed project for the Ultimate Angular NGRX Store +
-> Effects course as well as the final solution in stepped branches, come and
-> [learn NGRX](https://ultimatecourses.com/learn/ngrx-store-effects) with us!
-
 [Setup and install](#setup-and-install) | [Tasks](#tasks) |
 [Resources](#resources)
 
@@ -81,5 +73,3 @@ further about to dive deeper or understand in more detail what they are:
   docs
 * [ngrx/effects](https://github.com/ngrx/platform/blob/master/docs/effects/README.md)
   docs
-* [npm](https://www.npmjs.com/)
-* [Webpack](https://webpack.js.org/)

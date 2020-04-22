@@ -17,17 +17,21 @@ export const getToppingsEntities = createSelector(
 export const getAllToppings = createSelector(
   getToppingsEntities,
   (entities) => {
-    console.log(entities)
     return Object.keys(entities).map((id) => entities[parseInt(id, 10)]);
   }
+);
+
+export const getSelectedToppings = createSelector(
+  getToppingsState,
+  fromToppings.getSelectedToppings
 );
 
 export const getToppingsLoaded = createSelector(
   getToppingsState,
   fromToppings.getToppingsLoaded
-)
+);
 
 export const getToppingsLoading = createSelector(
   getToppingsState,
   fromToppings.getToppingsLoading
-)
+);
